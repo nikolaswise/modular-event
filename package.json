@@ -1,26 +1,26 @@
 {
-  "name": "modular-",
-  "version": "1.0.0",
+  "name": "modular-event",
+  "version": "0.0.1",
   "description": "CSS and SASS modular mini framework for creating design systems",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass scss/modular-.scss css/modular-.css",
-    "postbuild": "postcss css/modular-.css --use autoprefixer -d css/",
-    "minify": "postcss css/modular-.css --use cssnano -o css/modular-.min.css",
-    "stats": "cssstats css/modular-.css  ./css-stats.json",
+    "build": "node-sass scss/modular-event.scss css/modular-event.css",
+    "postbuild": "postcss css/modular-event.css --use autoprefixer -d css/",
+    "minify": "postcss css/modular-event.css --use cssnano -o css/modular-event.min.css",
+    "stats": "cssstats css/modular-event.css  ./css-stats.json",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikolaswise/modular-.git"
+    "url": "git+https://github.com/nikolaswise/modular-event.git"
   },
   "keywords": [],
   "author": "Nikolas Wise",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nikolaswise/modular-/issues"
+    "url": "https://github.com/nikolaswise/modular-event/issues"
   },
-  "homepage": "https://github.com/nikolaswise/modular-#readme",
+  "homepage": "https://github.com/nikolaswise/modular-event#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.0",
     "cssnano": "^3.10.0",
