@@ -1,2 +1,2 @@
-# modular-
-Modular design system for
+# modular-event
+Small JS helpers for smoothing out rough edges on event APIs
